@@ -1,3 +1,7 @@
+For more efficent Golang version, please check it here: `https://github.com/hanbang-wang/FakeGit-Go <https://github.com/hanbang-wang/FakeGit-Go>`_
+
+-----
+
 =======
 FakeGit
 =======
