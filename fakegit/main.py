@@ -12,7 +12,7 @@ def main():
     if name:
         cfg.change(name, email)
     if not forever:
-        print('git ' + addition)
+        print(('git ' + addition))
         os.system('git ' + addition)
         if name:
             cfg.recover()

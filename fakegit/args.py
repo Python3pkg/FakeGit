@@ -24,10 +24,10 @@ def procUser(argx):
         if name == '':
             raise ArgumentError('Username needed.')
         if email == '':
-            print('Finding user %s...' % name)
+            print(('Finding user %s...' % name))
             fake = GithubUser(name)
             name, email = fake.getIdentity()
-            print('User found: %s <%s>' % (name, email))
+            print(('User found: %s <%s>' % (name, email)))
         else:
             email = email[1:-1]
     return ' '.join(makeC(argx)), name, email, 'change' in argx
